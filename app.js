@@ -1,5 +1,5 @@
 const iceCream = [{
-  name: 'Cookie Dough',
+  name: 'Chocolate',
   price: 1.25,
   quantity: 0
 }, 
@@ -25,7 +25,7 @@ const toppings = [{
   quantity: 0
 },
 {
-  name: 'Cookie Chunks',
+  name: 'Pretzels',
   price: .5,
   quantity: 0
 }]
