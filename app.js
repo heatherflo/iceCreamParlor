@@ -29,3 +29,25 @@ const toppings = [{
   price: .5,
   quantity: 0
 }]
+
+function orderVanilla() {
+  
+  console.log("ordering vanilla")
+  let foundIceCream = iceCream.find(scoop=> scoop.name == "Vanilla")
+  foundIceCream.quantity++
+  console.log(foundIceCream);
+}
+
+function orderChocolate(){
+  console.log("ordering chocolate")
+  let foundIceCream = iceCream.find(scoop=> scoop.name =="Chocolate")
+  foundIceCream.quantity++
+  console.log(foundIceCream);
+}
+
+function orderStrawberry(){
+  console.log("ordering Strawberry")
+  let foundIceCream = iceCream.find(scoop=> scoop.name == "Strawberry")
+  foundIceCream.quantity++
+  console.log(foundIceCream)
+}
